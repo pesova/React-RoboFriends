@@ -1,7 +1,7 @@
-function SearchBox() {
+function SearchBox({searcfield, searchChange}) {
     return(
-        <div className="tc">
-            <input type="search" name="SearchRobots" id=""/>
+        <div className="pa2">
+            <input className="pa3 ba b--green bg-lightest-blue" type="search" placeholder="Search Robots" name="SearchRobots" id="" onChange= {searchChange}/>
         </div>
     );
 }
