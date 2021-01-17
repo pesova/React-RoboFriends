@@ -1,6 +1,6 @@
 function Scroll(props) {
     return(
-        <div style={{ overflowY: 'Scroll', border: '5px black', height: '500px'   }}>
+        <div style={{ overflowY: 'scroll', border: '5px solid black', height: '500px'}}>
             { props.children}
         </div>
        
